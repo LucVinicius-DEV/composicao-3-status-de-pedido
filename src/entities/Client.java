@@ -14,6 +14,10 @@ public class Client {
   private String email;     // Email do cliente
   private Date birthDate;   // Data de nascimento
   
+  // construtor padrao
+  public Client() {
+  }
+  
   // Construtor com parâmetros
   public Client(String name, String email, Date birthDate) {
     this.name = name;
