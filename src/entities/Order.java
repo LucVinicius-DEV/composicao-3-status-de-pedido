@@ -27,6 +27,7 @@ public class Order {
   
   // Construtor com parâmetros (não inclui a lista de itens)
   public Order(Date moment, OrderStatus status, Client client) {
+    super();
     this.moment = moment;
     this.status = status;
     this.client = client;
